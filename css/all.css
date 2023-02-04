@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Abel;
+}
+
+a {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
+}
+
+td, tr {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-spacing: 0;
+}
+
+/* button{
+    border: 0;
+} */
