@@ -110,6 +110,7 @@ path{
 }
 
 .map{
+    overflow: hidden;
 	position: relative;
 	text-align: center;
 	color: #d1dbdd;
