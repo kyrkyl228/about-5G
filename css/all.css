@@ -20,6 +20,11 @@ td, tr {
     border-spacing: 0;
 }
 
+body{
+    width: 1920px;
+    overflow-x: hidden;
+}
+
 /* button{
     border: 0;
 } */
