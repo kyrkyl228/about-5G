@@ -21,8 +21,7 @@ td, tr {
 }
 
 body{
-    width: 1920px;
-    overflow-x: hidden;
+    /* display: flex; */
 }
 
 /* button{

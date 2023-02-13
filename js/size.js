@@ -1,7 +1,12 @@
 function width(){
-    let a = document.documentElement.clientWidth/1920;
-    $("body").css("zoom", a);
-    console.log(a);
+    if(document.documentElement.clientWidth <= 1100 - (window.innerWidth - document.documentElement.clientWidth)){
+        let a = document.documentElement.clientWidth/1920;
+        $("body").css("zoom", a);
+    }else if(document.documentElement.clientWidth >= 1100 - (window.innerWidth - document.documentElement.clientWidth)){
+        $("body").css("zoom", 1);
+
+    }
+    console.log();
 }
 
 $(document).ready(function(){
@@ -9,5 +14,5 @@ $(document).ready(function(){
 });
 
 $(window).resize(function(){
-    width();
+    width();   
 });
