@@ -10,7 +10,8 @@ function width(){
 }
 
 $(document).ready(function(){
-    width()
+    width();
+    width();
 });
 
 $(window).resize(function(){
