@@ -127,6 +127,10 @@ path{
     background-color: #e0f3f9;
 }
 
+.map svg *{
+    transition: all 0.7s ease;
+}
+
 .svg-w-map{
     scale: 1.5;
     stroke: rgba(240, 240, 240, 0.151);
@@ -141,6 +145,7 @@ path{
     position: absolute;
     overflow: hidden;
     top: 0;
+    right: 0;
     border: 2px solid black;
     border-radius: 5px;
     background-color: white;
