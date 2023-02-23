@@ -127,11 +127,38 @@ path{
     background-color: #e0f3f9;
 }
 
+.map__size{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.map__minus{
+    margin-top: 10px;
+}
+
+.map__but{
+    font-weight: 900;
+    color: white;
+    background-color: #0079bd;
+    border: 0;
+    border-radius: 70px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
 .map svg *{
     transition: all 0.7s ease;
 }
 
 .svg-w-map{
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: scale 0.4s ease;
     scale: 1.5;
     stroke: rgba(240, 240, 240, 0.151);
     stroke-width: 2;
