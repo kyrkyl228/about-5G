@@ -111,5 +111,55 @@ $(".map").mousedown(function(event){
     a = 0;
     left = Number(parseInt($("#map-id").css('left'), 10));
     topY = Number(parseInt($("#map-id").css('top'), 10));
-
 });
+
+// let colorMap;
+
+// $(".map svg *").hover(function(){
+//     // colorMap = $(this).css("opacity");
+//     // console.log(colorMap);
+//     $(this).css("opacity", 0.5);
+
+//     $(this).getAttr()
+//     // function ColorLuminance(hex, lum) {
+
+//     //     // validate hex string
+//     //     hex = String(hex).replace(/[^0-9a-f]/gi, '');
+//     //     if (hex.length < 6) {
+//     //         hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+//     //     }
+//     //     lum = lum || 0;
+    
+//     //     // convert to decimal and change luminosity
+//     //     var rgb = "#", c, i;
+//     //     for (i = 0; i < 3; i++) {
+//     //         c = parseInt(hex.substr(i*2,2), 16);
+//     //         c = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);
+//     //         rgb += ("00"+c).substr(c.length);
+//     //     }
+    
+//     //     return rgb;
+//     // }
+
+//     // function getHexRGBColor(color){
+//     //     color = color.replace(/\s/g,"");
+//     //     var aRGB = color.match(/^rgb\((\d{1,3}[%]?),(\d{1,3}[%]?),(\d{1,3}[%]?)\)$/i);
+
+//     //     if(aRGB)
+//     //     {
+//     //         color = '';
+//     //         for (var i=1;  i<=3; i++) color += Math.round((aRGB[i][aRGB[i].length-1]=="%"?2.55:1)*parseInt(aRGB[i])).toString(16).replace(/^(.)$/,'0$1');
+//     //     }
+//     //     else color = color.replace(/^#?([\da-f])([\da-f])([\da-f])$/i, '$1$1$2$2$3$3');
+        
+//     //     return color;
+//     // }
+
+//     // console.log(getHexRGBColor($(this).css("fill")));
+//     // $(this).css("fill", ColorLuminance(getHexRGBColor($(this).css("fill")), 0.1))
+// },  function(){
+//     // console.log(colorMap);
+//     // $(this).css("fill", colorMap);
+//     $(this).css("opacity", 1);
+    
+// });
