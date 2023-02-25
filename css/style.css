@@ -1,4 +1,12 @@
+body{
+    min-height: 100vh;
+}
+
 .wrapper{
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
