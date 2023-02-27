@@ -5,7 +5,6 @@ function width(){
         // alert(a);
     }else if(document.documentElement.clientWidth >= 1100){
         $("wrapper").css("zoom", 1);
-
     }
 }
 

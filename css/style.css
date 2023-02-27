@@ -136,6 +136,9 @@ path{
 }
 
 .map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1860px;
     margin-top: 40px;
     display: flex;
     height: 1200px;
