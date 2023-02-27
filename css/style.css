@@ -131,7 +131,8 @@ body{
 }
 
 path{
-    fill: #d2dcde;
+    stroke: #5a5a5a;
+    fill: #c0c0c0;
 }
 
 .map{
