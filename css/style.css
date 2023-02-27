@@ -3,6 +3,7 @@ body{
 }
 
 .wrapper{
+    position: static!important;
     min-height: inherit;
     display: flex;
     justify-content: space-between;

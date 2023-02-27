@@ -116,6 +116,7 @@
 }
 
 .copy{
+    position: absolute;
     margin-left: -10px;
     margin-top: -45px;
     color: #aaaaaa;

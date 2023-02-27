@@ -23,8 +23,24 @@ td, tr {
 body{
     /* position: relative; */
     /* display: flex; */
+    background-color: #e3e3e3;
 }
 
+.wrapper{
+    zoom: 0.57;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 8px rgb(190, 190, 190);
+}
+
+.head__sel{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 110px;
+    height: 30px;
+}
 /* button{
     border: 0;
 } */
