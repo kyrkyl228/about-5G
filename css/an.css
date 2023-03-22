@@ -139,6 +139,17 @@
     margin: auto;
 }
 
+.bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar__dia{
+    width: 850px;
+    height: 800px;
+}
+
 .d{
     margin-top: 50px;
     width: 100%;

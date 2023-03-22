@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/all.css?v2.11t">
     <link rel="stylesheet" href="../css/an.css?v2.11t">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -65,7 +66,13 @@
             <img src="../images/cre.jpg" alt="" class="cr__image">
         </div>
         <div class="dia__head"><p>Ratio of infrastructure providers</p></div>
-        <img src="../images/d.PNG" alt="" class="d">
+        <!-- <div style="width: 897px; height: 897px;"><canvas id="bar-chart-grouped" style="width: 97px; height: 97px;"></canvas></div> -->
+        
+
+        <div class="bar">
+            <div><canvas id="bar-chart-grouped" height="900" width="1000"></canvas></div>
+            <div><canvas id="bar-chart-grouped-2" height="900" width="700"></canvas></div>            
+        </div>
         <a href="../index.html" class="circle">
             <div class="circle__center">
                 <p class="circle__text">5G</p>
@@ -75,5 +82,6 @@
         <p class="copy">© 2022 All rights reserved</p>
     </div>
     <script src="../js/size.js"></script>
+    <script src="../js/barData.js"></script>
 </body>
 </html>
