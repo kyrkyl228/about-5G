@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@font-face {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../abelrusbydaymarius.ttf);
+}
 
 * {
     margin: 0;
