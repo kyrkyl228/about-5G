@@ -316,7 +316,7 @@ path{
     position: absolute;
 }
 
-.japChart{
+.chinaChart{
     margin: 330px 600px;
     width: 50px;
     height: 50px;
@@ -324,6 +324,147 @@ path{
 
 .kazChart{
     margin: 230px 300px;
+    width: 50px;
+    height: 50px;
+}
+
+.russiaChart{
+    margin: 130px 200px;
+    width: 50px;
+    height: 50px;
+}
+.mongoliaChart{
+    margin: 250px 550px;
+    width: 50px;
+    height: 50px;
+}
+.indiaChart{
+    margin: 250px 550px;
+    width: 50px;
+    height: 50px;
+}
+.indiaChart{
+    margin: 425px 450px;
+    width: 50px;
+    height: 50px;
+}
+.turkcyChart{
+    margin: 300px 125px;
+    width: 50px;
+    height: 50px;
+}
+.SAChart{
+    margin: 425px 200px;
+    width: 50px;
+    height: 50px;
+}
+.iranChart{
+    margin: 350px 250px;
+    width: 50px;
+    height: 50px;
+}
+.pakistanChart{
+    margin: 390px 370px;
+    width: 50px;
+    height: 50px;
+}
+.afghanistanChart{
+    margin: 350px 340px;
+    width: 50px;
+    height: 50px;
+}
+.omanChart{
+    margin: 475px 290px;
+    width: 50px;
+    height: 50px;
+}
+.japanChart{
+    margin: 325px 850px;
+    width: 50px;
+    height: 50px;
+}
+.yemenChart{
+    margin: 500px 225px;
+    width: 50px;
+    height: 50px;
+}
+.iraqChart{
+    margin: 360px 185px;
+    width: 50px;
+    height: 50px;
+}
+.myanmarChart{
+    margin: 450px 580px;
+    width: 50px;
+    height: 50px;
+}
+.syriaChart{
+    margin: 335px 150px;
+    width: 50px;
+    height: 50px;
+}
+.indonesiaChart{
+    margin: 650px 725px;
+    width: 50px;
+    height: 50px;
+}
+.malaysiaChart{
+    margin: 600px 725px;
+    width: 50px;
+    height: 50px;
+}
+.thailandChart{
+    margin: 500px 625px;
+    width: 50px;
+    height: 50px;
+}
+.cambodiaChart{
+    margin: 530px 655px;
+    width: 50px;
+    height: 50px;
+}
+.vietnamChart{
+    margin: 530px 685px;
+    width: 50px;
+    height: 50px;
+}
+.turkmenistanChart{
+    margin: 305px 280px;
+    width: 50px;
+    height: 50px;
+}
+.uzbekistanChart{
+    margin: 285px 310px;
+    width: 50px;
+    height: 50px;
+}
+.kyrgyzstanChart{
+    margin: 285px 380px;
+    width: 50px;
+    height: 50px;
+}
+.tajikistanChart{
+    margin: 300px 380px;
+    width: 50px;
+    height: 50px;
+}
+.nepalChart{
+    margin: 400px 490px;
+    width: 50px;
+    height: 50px;
+}
+.bangladeshChart{
+    margin: 430px 530px;
+    width: 50px;
+    height: 50px;
+}
+.PNChart{
+    margin: 690px 950px;
+    width: 50px;
+    height: 50px;
+}
+.philippinesChart{
+    margin: 500px 775px;
     width: 50px;
     height: 50px;
 }

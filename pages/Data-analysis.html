@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/all.css?v2.12t">
-    <link rel="stylesheet" href="../css/an.css?v2.12t">
+    <link rel="stylesheet" href="../css/all.css?v2.13t">
+    <link rel="stylesheet" href="../css/an.css?v2.13t">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src='https://cdn.plot.ly/plotly-2.18.2.min.js'></script>
     <title>Document</title>
 </head>
 <body>
@@ -37,7 +38,9 @@
             <div class="continents__circle continents__as"><p class="continents__text">Asia</p></div>
         </div>
         <div class="diagram">
-            <img src="../images/sc.png" alt="" class="diagram__image">
+            <div src="../images/sc.png" alt="" class="">
+                <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+            </div>
             <div class="diagram__right">
                 <div class="tab-wr">
                     <table class="tab">
@@ -83,5 +86,6 @@
     </div>
     <script src="../js/size.js"></script>
     <script src="../js/barData.js"></script>
+    <script src="../js-chart/analysis-chart.js"></script>
 </body>
 </html>
