@@ -51,17 +51,36 @@
 }
 
 .map__switch-wrap{
+    padding: 5px;
+    font-size: 24px;
     position: absolute;
     overflow: hidden;
     bottom: 0px;
     left: 0;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 1px solid black;
     background-color: white;
-    width: 200px;
+    width: 160px;
     border-spacing: 0;
     border-collapse: collapse;
     color: black;
+}
+
+.map__li{
+    display: flex;
+    margin: 10px 0;
+}
+
+.map__li *{
+    margin: auto 0;
+}
+
+.map__sq{
+    margin-right: 10px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 30px;
 }
 
 .map__switch{

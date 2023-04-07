@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/all.css?v2.13t">
-    <link rel="stylesheet" href="../css/asia.css?v2.13t">
+    <link rel="stylesheet" href="../css/all.css?v2.14t">
+    <link rel="stylesheet" href="../css/asia.css?v2.14t">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Document</title>
@@ -413,7 +413,7 @@
                 
                 <path
                     d="M1264.1 333.3l0.3 0.1 0.2-0.1 0.4 0.7-0.1 0.2 0.1 0.9 0 0.7-0.2 0.4-0.1-0.4-0.6-0.8 0.1-0.4-0.2-0.7 0-0.4 0.1-0.2z"
-                    id="BH" name="Bahrain" class="All Huawei Ericsson Null">
+                    id="BH" name="Bahrain" class="All H uawei Ericsson Null">
                 </path>
                 
                
@@ -433,49 +433,12 @@
                 <canvas id="pieAf"></canvas>
                 <div class="madness"></div>
             </div>
-            <div class="map__switch-wrap">
-                <table class="map__switch">
-                    <tr class="map__switch-head">
-                        <td class="map__switch_p" colspan="2">Infrastructure Provider</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but All-back-but Null" onclick="mod('All', 'blue')"></td>
-                        <td class="map__switch-name">All</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but Huawei-back-but Null" onclick="mod('Huawei', '#ffc8cf')"></td>
-                        <td class="map__switch-name">Huawei</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but ZTE-back-but Null" onclick="mod('ZTE', '#ffec9d')"></td>
-                        <td class="map__switch-name">ZTE</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but Samsung-back-but Null" onclick="mod('Samsung', '#adbacb')"></td>
-                        <td class="map__switch-name">Samsung</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but Ericsson-back-but Null" onclick="mod('Ericsson', '#0071c1')"></td>
-                        <td class="map__switch-name">Ericsson</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but Nokia-back-but Null" onclick="mod('Nokia', '#c7efcf')"></td>
-                        <td class="map__switch-name">Nokia</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but Aviat-back-but Null" onclick="mod('Aviat', '#ffc8cf')"></td>
-                        <td class="map__switch-name">Aviat</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but affirmedNetworks-back-but Null" onclick="mod('affirmedNetworks', '#ff00ff')"></td>
-                        <td class="map__switch-name">Affirmed Networks</td>
-                    </tr>
-                    <tr class="map__switch-row">
-                        <td class="map__switch-but Rakuten-back-but Null" onclick="mod('Rakuten', 'red')"></td>
-                        <td class="map__switch-name">Rakuten</td>
-                    </tr>
-                </table>
-            </div>
+            <ul class="map__switch-wrap">
+                <li class="map__li"><span class="map__sq" style="background-color: blue;"></span>Ericsson</li>
+                <li class="map__li"><span class="map__sq" style="background-color: red;"></span>Huawei</li>
+                <li class="map__li"><span class="map__sq" style="background-color: green;"></span>Nokia</li>
+                <li class="map__li"><span class="map__sq" style="background-color: yellow;"></span>ZTE</li>
+            </ul>
         </div>
         <div class="dia__head"><p>Relational Model</p></div>
         <div class="model">
