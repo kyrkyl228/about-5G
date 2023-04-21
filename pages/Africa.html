@@ -17,7 +17,18 @@
             <option>RU</option>
             <option>CN</option>
         </select>
-        <p class="dif">Africa</p>
+        <nav class="navigation">
+            <a href="" class="link">Main page</a>
+            <a href="" class="link">5G diffusion</a>
+            <a href="" class="link">Africa</a>
+            <a href="" class="link">Asia</a>
+            <a href="" class="link">Latin America</a>
+            <a href="" class="link">Authors</a>
+        </nav>
+        <div class="dif-wrapper">
+            <p class="dif">Africa</p>
+        </div>
+        <div class="inder-head"></div>
         <div class="map1">
             <svg class="map__laAm" viewBox="880 250 400 480" id="map-id">
     
@@ -272,6 +283,9 @@
                 </path>
                 
             </svg>
+            <div class="all-chart chinaChart">
+                <canvas id="chinaChart"></canvas>
+            </div>
             <div class="map__laAmStat">
                 <canvas id="pieAf"></canvas>
                 <div class="madness"></div>
@@ -831,5 +845,6 @@
     <script src="../js/size.js"></script>
     <script src="../js/map.js"></script>
     <script src="../js/js.js"></script>
+    <script src="../js-chart/africa-map-chart.js"></script>
 </body>
 </html>

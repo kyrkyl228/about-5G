@@ -17,7 +17,18 @@
             <option>RU</option>
             <option>CN</option>
         </select>
-        <p class="dif">Latin America</p>
+        <nav class="navigation">
+            <a href="" class="link">Main page</a>
+            <a href="" class="link">5G diffusion</a>
+            <a href="" class="link">Africa</a>
+            <a href="" class="link">Asia</a>
+            <a href="" class="link">Latin America</a>
+            <a href="" class="link">Authors</a>
+        </nav>
+        <div class="dif-wrapper">
+            <p class="dif">Latin America</p>
+        </div>
+        <div class="inder-head"></div>
         <div class="map1">
             <svg viewBox="350 290 450 570" class="map__laAm" id="map-id">
                 
@@ -227,6 +238,9 @@
                 </path>
                
             </svg>
+            <div class="all-chart chinaChart">
+                <canvas id="chinaChart"></canvas>
+            </div>
             <div class="map__laAmStat">
                 <canvas id="pieAf"></canvas>
                 <div class="madness"></div>
@@ -1000,5 +1014,6 @@
     <script src="../js/map.js"></script>
     <script src="../js.js"></script>
     <script src="../js/js-la.js"></script>
+    <script src="../js-chart/america-map-chart.js"></script>
 </body>
 </html>
