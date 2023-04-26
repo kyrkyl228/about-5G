@@ -10,7 +10,7 @@
 
 .head__sel{
     position: absolute;
-    top: 90px;
+    top: 150px;
     right: 35px;
 }
 
@@ -217,11 +217,24 @@
 }
 
 .copy{
-    position: absolute;
-    margin-left: -10px;
-    margin-top: -45px;
+    margin-left: 76px;
+    margin-top: -22px;
+    display: block;
     color: #aaaaaa;
     font-size: 16px;
-    left: 43px;
-    bottom: 24px;
+}
+
+.navigation{
+    background-color: #0079bd;
+    color: white;
+    font-weight: 700;
+    margin: 0px 0px;
+    padding: 30px 68px;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    font-size: 40px;
 }

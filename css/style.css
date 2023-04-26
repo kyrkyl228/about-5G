@@ -8,7 +8,6 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1920px;
@@ -378,7 +377,6 @@ path{
 
 .copyrights{
     margin-left: 10px;
-    margin-top: -24px;
     color: #aaaaaa;
     font-size: 16px;
     font-weight: 400;

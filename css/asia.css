@@ -291,13 +291,10 @@
 }
 
 .copy{
-    position: absolute;
-    margin-left: -10px;
-    margin-top: -45px;
+    margin-top: -22px;
+    display: block;
     color: #aaaaaa;
     font-size: 16px;
-    margin-left: 0px;
-    margin-top: 4100px;
 }
 
 .madness{

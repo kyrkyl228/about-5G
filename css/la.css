@@ -219,12 +219,10 @@
 }
 
 .copy{
-    position: absolute;
-    margin-top: -45px;
+    margin-top: -22px;
+    display: block;
     color: #aaaaaa;
     font-size: 16px;
-    margin-left: 0;
-    top: 4224px;
 }
 
 path{
@@ -300,7 +298,7 @@ path, rect, text{
     margin-left: -68px;
     width: 1920px;
     display: flex;
-    background-image: url(https://summittravel.com.au/wp-content/uploads/2018/10/8813004554270.jpg);
+    background-image: url(https://pic.rutubelist.ru/video/e8/fa/e8faf643c22dcbcc3b962859dd8b1a0b.jpg);
     background-size: cover;
 }
 
