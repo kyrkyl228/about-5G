@@ -14,7 +14,15 @@
     right: 35px;
 }
 
+.name{
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .dif{
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 144px;
     color: #0079bd;
     font-weight: 600;
@@ -237,4 +245,11 @@
 
 .link{
     font-size: 40px;
+}
+
+.inder-head{
+    background-color: #0079bd;
+    margin: 0px;
+    height: 50px;
+    width: 1920px;
 }

@@ -1,92 +1,65 @@
-new Chart(document.getElementById("bar-chart-grouped"), {
-    type: 'bar',
-    data: {
-      labels: ["Latin America", "Africa", "Asia"],
-      datasets: [
-        {
-            label: "Huawei",
-            backgroundColor: "#ec1e10",
-            data: [10,14,25]
-          },         {
-            label: "ZTE",
-            backgroundColor: "#ecf544",
-            data: [2,3,8]
-          },        {
-            label: "Samsung",
-            backgroundColor: "#bbbfbd",
-            data: [0,1,9]
-          },        {
-            label: "Ericsson",
-            backgroundColor: "#3191f7",
-            data: [10,9,31]
-          },        {
-            label: "Nokia",
-            backgroundColor: "#13ce7a",
-            data: [11,7,29]
-          },        {
-            label: "other",
-            backgroundColor: "#1f1e1d",
-            data: [4,5,0]
-          },
-      ]
-    },
-    options: {
-        plugins: {
-            tooltip:{
-                enabled: false,
-            },
-            legend: {
-                labels:{
-                    boxWidth: 35,
-                    boxHeight: 35,
-                    font:{
-                        size: 20,
-                    }
-                },
-                display: true,
-                boxWidth: 511,
-            }
-            
-        }
-    }
-});
+google.charts.load("current", {packages:["corechart"]});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+        ['N', 'Huawei', 'ZTE', 'Samsung', 'Nokia', 'Ericsson',
+         'Other'],
+        ['Latin America', 10, 2, 0, 10, 11, 4],
+        ['Africa', 14, 3, 1, 9, 7, 5 ],
+        ['Asia', 25, 8, 9, 31, 29, 0 ]
+      ]);
 
-new Chart(document.getElementById("bar-chart-grouped-2"), {
-    type: 'bar',
-    data: {
-      labels: ["World"],
-      datasets: [
-        {
-            label: "Huawei",
-            backgroundColor: "#ec1e10",
-            data: [49]
-          },         {
-            label: "ZTE",
-            backgroundColor: "#ecf544",
-            data: [14]
-          },        {
-            label: "Samsung",
-            backgroundColor: "#bbbfbd",
-            data: [10]
-          },        {
-            label: "Ericsson",
-            backgroundColor: "#3191f7",
-            data: [50]
-          },        {
-            label: "Nokia",
-            backgroundColor: "#13ce7a",
-            data: [47]
-          },        {
-            label: "other",
-            backgroundColor: "#1f1e1d",
-            data: [9]
-          },
-      ]
-    },
-    options: {
-      title: {
-        display: true,
-        text: 'Population growth (millions)'
-      }
-    }
-});
+      var options = {
+        colors: [
+            "#f45128",
+            "#f1e956",
+            "#929597",
+            "#55ed7b",
+            "#1fa5ed",
+            "#020b18",
+        ],
+        fontSize: 30,
+        width: 1000,
+        height: 900,
+        chartArea: {width: '90%', height: '80%'},
+        legend: { position: 'top', maxLines: 2, textStyle: {fontSize: 24,}},
+        bar: { groupWidth: '75%' },
+        isStacked: false,
+    };
+  
+
+  var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+
+google.charts.load("current", {packages:["corechart"]});
+google.charts.setOnLoadCallback(drawChart2);
+function drawChart2() {
+    var data = google.visualization.arrayToDataTable([
+        ['N', 'Huawei', 'ZTE', 'Samsung', 'Nokia', 'Ericsson',
+        'Other'],
+        ['World', 49, 13, 10, 50, 47, 9],
+      ]);
+
+      var options = {
+        colors: [
+            "#f45128",
+            "#f1e956",
+            "#929597",
+            "#55ed7b",
+            "#1fa5ed",
+            "#020b18",
+        ],
+        fontSize: 30,
+        width: 800,
+        height: 900,
+        chartArea: {width: '90%', height: '80%'},
+        legend: { position: 'none', maxLines: 2, textStyle: {fontSize: 24,}},
+        bar: { groupWidth: '75%' },
+        isStacked: false,
+    };
+  
+
+  var chart = new google.visualization.ColumnChart(document.getElementById('chart_div2'));
+  chart.draw(data, options);
+}

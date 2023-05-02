@@ -39,13 +39,12 @@
 }
 
 .map__laAm{
+
     height: auto;
     display: block;
 }
 
 .map__laAmStat{
-    width: 719px;
-    height: 770px;
     display: block;
     margin: auto 0;
 }
@@ -225,7 +224,7 @@
     font-size: 16px;
 }
 
-path{
+.map__laAm path{
     fill: #c0c0c0;
     stroke: black;
     stroke-width: 1;
@@ -241,7 +240,7 @@ path{
     display: flex;
 }
 
-.map1 svg {
+.map__laAm{
     height: 700px;
     margin: auto 20px;
 }
@@ -317,8 +316,74 @@ path, rect, text{
     position: absolute;
 }
 
-.chinaChart{
-    margin: 330px 600px;
+.BrazilChart{
+    margin: 300px 400px;
+    width: 50px;
+    height: 50px;
+}
+
+.BoliviaChart{
+    margin: 350px 260px;
+    width: 50px;
+    height: 50px;
+}
+
+.PeruChart{
+    margin: 400px 330px;
+    width: 50px;
+    height: 50px;
+}
+
+.EcuadorChart{
+    margin: 275px 230px;
+    width: 50px;
+    height: 50px;
+}
+
+.ColombiaChart{
+    margin: 240px 270px;
+    width: 50px;
+    height: 50px;
+}
+
+.VenezuelaChart{
+    margin: 210px 320px;
+    width: 50px;
+    height: 50px;
+}
+
+.MexicoChart{
+    margin: 75px 75px;
+    width: 50px;
+    height: 50px;
+}
+
+.CubaChart{
+    margin: 100px 240px;
+    width: 50px;
+    height: 50px;
+}
+
+.ParaguayChart{
+    margin: 450px 380px;
+    width: 50px;
+    height: 50px;
+}
+
+.UruguayChart{
+    margin: 515px 410px;
+    width: 50px;
+    height: 50px;
+}
+
+.ArgentinaChart{
+    margin: 515px 350px;
+    width: 50px;
+    height: 50px;
+}
+
+.ChileChart{
+    margin: 450px 300px;
     width: 50px;
     height: 50px;
 }

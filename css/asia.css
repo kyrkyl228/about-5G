@@ -52,6 +52,7 @@
 }
 
 .map__laAm{
+    margin-left: 50px;
     width: 964px;
     height: auto;
     display: block;
@@ -305,11 +306,11 @@
     top: 0;
 }
 
-.map1 svg *{
+.map__laAm svg *{
     transition: fill 0.7s ease, opacity 0.4s ease;
 }
 
-svg {
+.map__laAm svg {
     margin: auto;
 }
  
@@ -317,11 +318,11 @@ svg {
 	opacity: 0.2;
 }
 
-path, rect, text{
+.map__laAm path, .map__laAm rect, .map__laAm text{
     cursor: pointer;
 }
 
-path{
+.map__laAm path{
     fill: #d2dcde;
     stroke: #5a5a5a;
 	fill: #c0c0c0;
