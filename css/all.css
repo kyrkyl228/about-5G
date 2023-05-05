@@ -40,6 +40,12 @@ body{
     box-shadow: 0 0 8px rgb(190, 190, 190);
 }
 
+@media screen and (max-width: 1130px) and (min-width: 800px){
+    .wrapper{
+        zoom: 0.4!important;
+    }
+}
+
 .head__sel{
     font-weight: 700;
     font-size: 20px;
