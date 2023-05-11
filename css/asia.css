@@ -1,6 +1,5 @@
 .wrapper{
     max-width: 1920px;
-    padding: 0 68px;
     position: static!important;
     min-height: inherit;
     display: flex;
@@ -8,39 +7,13 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    zoom: 0.57;
+    /* zoom: 0.7; */
 }
 
 .rectangle-top{
     width: 100%;
     height: 40px;
     border: 1px solid black;
-}
-
-.head__sel{
-    position: absolute;
-    top: 150px;
-    margin-left: 1700px;
-}
-
-.dif-wrapper{
-    height: 700px;
-    margin-left: -68px;
-    width: 1920px;
-    display: flex;
-    background-image: url(https://summittravel.com.au/wp-content/uploads/2018/10/8813004554270.jpg);
-    background-size: cover;
-}
-
-.dif{
-    display: block;
-    width: 800px;
-    background-color: #ffffffd3;
-    margin: auto;
-    font-size: 144px;
-    color: #0079bd;
-    font-weight: 600;
-    text-align: center;
 }
 
 .map1{
@@ -334,23 +307,86 @@
     background-color: #0079bd;
     color: white;
     font-weight: 700;
-    margin: 0px -68px;
-    padding: 30px 68px;
-    width: 1920px;
-    display: flex;
-    justify-content: space-between;
+    /* margin: 0px -300px; */
+    padding: 20px 0px;
 }
 
 .inder-head{
     background-color: #0079bd;
-    margin: 0px -68px;
-    height: 50px;
-    width: 1920px;
+    /* margin: 0px -300px; */
+    height: 30px;
+    width: 100%;
 }
 
 .link{
-    font-size: 40px;
+    font-size: 22px;
 }
+
+.head__sel{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.dif-wrapper{
+    height: 500px;
+    /* margin-left: -300px; */
+    width: 100%;
+    display: flex;
+    background-image: url(https://summittravel.com.au/wp-content/uploads/2018/10/8813004554270.jpg);
+    background-size: cover;
+}
+
+.dif{
+    display: block;
+    width: 550px;
+    background-color: #ffffffd3;
+    margin: auto;
+    font-size: 120px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}
+
+.scale{
+    zoom: 0.7;
+}
+
+.wrapper-content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+.navi{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1344px;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1000px){
+    
+    .scale{
+        zoom: 0.5;
+    }
+
+    .head{
+        zoom: 0.7;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px){
+    
+    .scale{
+        zoom: 0.35;
+    }
+
+    .head{
+        zoom: 0.5;
+    }
+}
+
 
 .all-chart{
     position: absolute;
