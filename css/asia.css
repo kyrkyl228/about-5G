@@ -365,7 +365,7 @@
     width: 1344px;
 }
 
-@media screen and (max-width: 1400px) and (min-width: 1000px){
+@media screen and (max-width: 1444px) and (min-width: 1000px){
     
     .scale{
         zoom: 0.5;
