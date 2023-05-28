@@ -5,38 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css?v2.22t">
-    <link rel="stylesheet" href="css/all.css?v2.22t">
+    <link rel="stylesheet" href="css/style.css?v2.23t">
+    <link rel="stylesheet" href="css/all.css?v2.23t">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <title>Document</title>
 </head>
-
 <body>
-    <div class="wrapper">
-        <header class="head">
-            <img src="images/logoU.jpg" alt="" class="head__logo">
-            <div class="head__text">
-                <p class="head__top-text">Technology for analysing 5G market opportunities in <br> developing countries
-                    in Latin America, Africa and Asia </p>
-                <p class="head__bottom-text">The project investigates the diffusion of 5G technologies in developing
-                    countries <br> and analyses the factors that influence the choice of infrastructure provider </p>
-            </div>
-            <div class="head__circle">
-                <div class="head__center-circle">
-                    <div class="head__center-circle-wrap">
-                        <p class="head__circle-text">5G</p>
-                        <div class="head__wave-wrap"><img src="./images/wave.png" alt="" class="head__wave"></div>                 
+    <div class="head">
+        <nav class="navigation">
+            <div class="navi wrapper-content">
+                <a href="index.html" class="link">Main page</a>
+                <a href="Diffusion.html" class="link">5G diffusion</a>
+                <div class="cir">
+                    <div class="cir2">
+                        <p class="g5g">5G</p>
                     </div>
                 </div>
+                <a href="Data-analysis.html" class="link">Data analysis</a>
+                <a href="Authors.html" class="link">Authors</a>
             </div>
-            <a href="pages/Diffusion.html" class="head__link">5G Diffusion</a>
-            <a href="pages/Authors.html" class="head__link-2">Authors</a>
-            <select class="head__sel">
-                <option>EN</option>
-                <option>RU</option>
-                <option>CN</option>
-            </select>
-        </header>
+        </nav>
         <div id="map" class="map">
             <svg width="1110" height="780" viewBox="0 0 2000 857" class="svg-w-map" id="map-id">
                 <path
@@ -1588,53 +1576,67 @@
                     </tr>
                 </table>
             </div>
-
         </div>
-        <div class="about">
-            <div class="about__circle"><p class="about__text">100 countries</p></div>
-            <div class="about__circle"><p class="about__text">10 providers of 5G</p></div>
-            <div class="about__circle"><p class="about__text">100 mobile operators</p></div>
-            <div class="about__circle"><p class="about__text">50 parent companies</p></div>
+        <div class="text12">
+            <p class="text12__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque a esse, facere asperiores doloribus iusto?
+            </p>
         </div>
-        <div class="info">
-            <p class="info__visual-sec-head">Data Visualisation</p>
-            <div class="info__graf">
-                <div><img src="./images/sp.jpg" alt="" class="info__graf-image"></div>
-                <div class="info__diagrams">
-                    <a href="pages/Data-analysis.html" class="info__diagram">
-                        <p class="info__diagrams-text">Dynamic Network Analysis</p>
-                        <img src="./images/arrowG.png" alt="" class="info__diagram-image">
-                    </a>
-                    <a href="pages/Data-analysis.html" class="info__diagram-2">
-                        <p class="info__diagrams-text">Sankey Diagram</p>
-                        <img src="./images/arrowG.png" alt="" class="info__diagram-image">
-                    </a>
-                    <a href="pages/Data-analysis.html" class="info__diagram-3">
-                        <p class="info__diagrams-text">Relational Model</p>
-                        <img src="./images/arrowG.png" alt="" class="info__diagram-image">
-                    </a>
+        <div class="inf">
+            <p class="inf__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum doloremque numquam molestiae molestias delectus. Illum architecto voluptate voluptatem magnam aut.</p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="wr-wr">
+            <div class="scale wrapper-content">
+                <div class="about">
+                    <div class="about__circle"><p class="about__text">100 countries</p></div>
+                    <div class="about__circle"><p class="about__text">10 providers of 5G</p></div>
+                    <div class="about__circle"><p class="about__text">100 mobile operators</p></div>
+                    <div class="about__circle"><p class="about__text">50 parent companies</p></div>
                 </div>
-            </div>        
-        </div>
-        <div class="regions">
-            <p class="regions__head">Regions</p>
-            <div class="regions__maps">
-                <a href="pages/Latin-America.html" class="regions__map regions__map-1">
-                    <img src="./images/am.png" alt="" class="regions__map-image">
-                    <p class="regions__map-text">Latin America</p>
-                </a>
-                <a href="pages/Africa.html" class="regions__map regions__map-2">
-                    <img src="./images/af.png" alt="" class="regions__map-image">
-                    <p class="regions__map-text">Africa</p>
-                </a>
-                <a href="pages/Asia.html" class="regions__map regions__map-3">
-                    <img src="./images/as.png" alt="" class="regions__map-image">
-                    <p class="regions__map-text">Asia</p>
-                </a>
+                <div class="info">
+                    <p class="info__visual-sec-head">Data Visualisation</p>
+                    <div class="info__graf">
+                        <div><img src="./images/sp.jpg" alt="" class="info__graf-image"></div>
+                        <div class="info__diagrams">
+                            <a href="pages/Data-analysis.html" class="info__diagram">
+                                <p class="info__diagrams-text">Dynamic Network Analysis</p>
+                                <img src="./images/arrowG.png" alt="" class="info__diagram-image">
+                            </a>
+                            <a href="pages/Data-analysis.html" class="info__diagram-2">
+                                <p class="info__diagrams-text">Sankey Diagram</p>
+                                <img src="./images/arrowG.png" alt="" class="info__diagram-image">
+                            </a>
+                            <a href="pages/Data-analysis.html" class="info__diagram-3">
+                                <p class="info__diagrams-text">Relational Model</p>
+                                <img src="./images/arrowG.png" alt="" class="info__diagram-image">
+                            </a>
+                        </div>
+                    </div>        
+                </div>
+                <div class="regions">
+                    <p class="regions__head">Regions</p>
+                    <div class="regions__maps">
+                        <a href="pages/Latin-America.html" class="regions__map regions__map-1">
+                            <img src="./images/am.png" alt="" class="regions__map-image">
+                            <p class="regions__map-text">Latin America</p>
+                        </a>
+                        <a href="pages/Africa.html" class="regions__map regions__map-2">
+                            <img src="./images/af.png" alt="" class="regions__map-image">
+                            <p class="regions__map-text">Africa</p>
+                        </a>
+                        <a href="pages/Asia.html" class="regions__map regions__map-3">
+                            <img src="./images/as.png" alt="" class="regions__map-image">
+                            <p class="regions__map-text">Asia</p>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyrights">© 2022 All rights reserved</p>
             </div>
         </div>
-        <p class="copyrights">© 2022 All rights reserved</p>
     </div>
+
     <script src="js/mapW.js"></script>
     <script src="./js/size.js"></script>
 </body>
