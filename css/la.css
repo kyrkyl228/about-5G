@@ -1,6 +1,5 @@
 .wrapper{
     max-width: 1920px;
-    padding: 0 68px;
     position: static!important;
     min-height: inherit;
     display: flex;
@@ -8,7 +7,6 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    zoom: 0.57;
 }
 
 .rectangle-top{
@@ -270,7 +268,7 @@ path, rect, text{
     top: 0;
 }
 
-.navigation{
+/* .navigation{
     background-color: #0079bd;
     color: white;
     font-weight: 700;
@@ -310,7 +308,95 @@ path, rect, text{
     color: #0079bd;
     font-weight: 600;
     text-align: center;
+} */
+
+/* ----------------------------- */
+
+.navigation{
+    background-color: #0079bd;
+    color: white;
+    font-weight: 700;
+    /* margin: 0px -300px; */
+    padding: 20px 0px;
 }
+
+.inder-head{
+    background-color: #0079bd;
+    /* margin: 0px -300px; */
+    height: 30px;
+    width: 100%;
+}
+
+.link{
+    font-size: 22px;
+}
+
+.head__sel{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.dif-wrapper{
+    height: 500px;
+    /* margin-left: -300px; */
+    width: 100%;
+    display: flex;
+    background-image: url(https://pic.rutubelist.ru/video/e8/fa/e8faf643c22dcbcc3b962859dd8b1a0b.jpg);
+    background-size: cover;
+}
+
+.dif{
+    display: block;
+    width: 750px;
+    background-color: #ffffffd3;
+    margin: auto;
+    font-size: 120px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}
+
+.scale{
+    zoom: 0.7;
+}
+
+.wrapper-content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+.navi{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1344px;
+}
+
+@media screen and (max-width: 1444px) and (min-width: 1000px){
+    
+    .scale{
+        zoom: 0.5;
+    }
+
+    .head{
+        zoom: 0.7;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px){
+    
+    .scale{
+        zoom: 0.35;
+    }
+
+    .head{
+        zoom: 0.5;
+    }
+}
+
+/* ----------------------------- */
 
 .all-chart{
     position: absolute;

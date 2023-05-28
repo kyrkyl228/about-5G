@@ -1,6 +1,5 @@
 .wrapper{
     max-width: 1920px;
-    padding: 0 53px;
 }
 
 .rectangle-top{
@@ -11,8 +10,8 @@
 
 .head__sel{
     position: absolute;
-    top: 150px;
-    right: 35px;
+    top: 80px;
+    right: 0;
 }
 
 .dif{
@@ -23,17 +22,17 @@
 }
 
 .content{
-    margin-top: 50px;
+    display: flex;
+    /* margin-top: 50px; */
     /* display: flex;
     justify-content: space-between; */
-    display: grid;
-    grid-template-columns: 434px 946px 434px;
+    /* display: grid; */
+    /* grid-template-columns: 434px 946px 434px; */
 }
 
 .tab-wr{
     border-radius: 8px;
     width: 434px;
-    border: 2px solid black;
 }
 
 .tab-wr-mod{
@@ -132,7 +131,7 @@
     font-size: 16px;
 }
 
-.navigation{
+/* .navigation{
     background-color: #0079bd;
     color: white;
     font-weight: 700;
@@ -171,4 +170,110 @@
     color: #0079bd;
     font-weight: 600;
     text-align: center;
+} */
+
+.navigation{
+    background-color: #0079bd;
+    color: white;
+    font-weight: 700;
+    /* margin: 0px -300px; */
+    padding: 20px 0px;
+}
+
+.inder-head{
+    background-color: #0079bd;
+    /* margin: 0px -300px; */
+    height: 30px;
+    width: 100%;
+}
+
+.link{
+    font-size: 22px;
+}
+
+.dif-wrapper{
+    height: 500px;
+    /* margin-left: -300px; */
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+
+.dif{
+    display: block;
+    width: 550px;
+    background-color: #ffffffd3;
+    margin: auto;
+    font-size: 120px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}
+
+.scale{
+    zoom: 0.7;
+}
+
+.wrapper-content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+.gr{
+    grid-gap: 30px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: 'mirz .'
+    'pis kozl'
+    'les efr';
+}
+
+.mirz{
+    grid-area: mirz;
+}
+
+.efr{
+    grid-area: efr;
+}
+
+.kozl{
+    grid-area: kozl;
+}
+
+.les{
+    grid-area: les;
+}
+
+.pis{
+    grid-area: pis;
+}
+
+.navi{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1344px;
+}
+
+@media screen and (max-width: 1444px) and (min-width: 1000px){
+    
+    .scale{
+        zoom: 0.5;
+    }
+
+    .head{
+        zoom: 0.7;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px){
+    
+    .scale{
+        zoom: 0.35;
+    }
+
+    .head{
+        zoom: 0.5;
+    }
 }

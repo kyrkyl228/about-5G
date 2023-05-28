@@ -10,8 +10,8 @@
 
 .head__sel{
     position: absolute;
-    top: 150px;
-    right: 35px;
+    top: 80px;
+    right: 0;
 }
 
 .name{
@@ -232,7 +232,7 @@
     font-size: 16px;
 }
 
-.navigation{
+/* .navigation{
     background-color: #0079bd;
     color: white;
     font-weight: 700;
@@ -252,4 +252,82 @@
     margin: 0px;
     height: 50px;
     width: 1920px;
+} */
+
+.navigation{
+    background-color: #0079bd;
+    color: white;
+    font-weight: 700;
+    /* margin: 0px -300px; */
+    padding: 20px 0px;
+}
+
+.inder-head{
+    background-color: #0079bd;
+    /* margin: 0px -300px; */
+    height: 30px;
+    width: 100%;
+}
+
+.link{
+    font-size: 22px;
+}
+
+.dif-wrapper{
+    height: 500px;
+    /* margin-left: -300px; */
+    width: 100%;
+    display: flex;
+    background-image: url(../images/africa.png);
+    background-size: cover;
+}
+
+.dif{
+    display: block;
+    width: 550px;
+    background-color: #ffffffd3;
+    margin: auto;
+    font-size: 120px;
+    color: #0079bd;
+    font-weight: 600;
+    text-align: center;
+}
+
+.scale{
+    zoom: 0.7;
+}
+
+.wrapper-content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+.navi{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1344px;
+}
+
+@media screen and (max-width: 1444px) and (min-width: 1000px){
+    
+    .scale{
+        zoom: 0.5;
+    }
+
+    .head{
+        zoom: 0.7;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px){
+    
+    .scale{
+        zoom: 0.35;
+    }
+
+    .head{
+        zoom: 0.5;
+    }
 }
