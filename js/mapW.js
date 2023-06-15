@@ -18,7 +18,7 @@ $(".map svg *").hover(
       event.pageX / $(".wrapper").css("zoom") -
       a -
       parseInt($("#map-info").css("width"), 10)
-    }px; background-color: #f0f8ffc0; border-radius: 7px; width: 120px; height: 50px;">
+    }px; background-color: #f0f8ffc0; zoom:${('.wr-wr').css('zoom')}; border-radius: 7px; width: 120px; height: 50px;">
             <p style="margin: auto; font-size: 20px">${$(this).attr("name")}</p>
         </div>
     `);

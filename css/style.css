@@ -13,6 +13,11 @@ body{
     max-width: 1920px;
 }
 
+.wr-wr{
+    zoom: 0.85;
+}
+
+
 @media screen and (max-width: 1100px){
     .wrapper{
         zoom: 1;
@@ -134,6 +139,7 @@ path{
 }
 
 .map{
+    overflow: hidden;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 40px;
@@ -432,29 +438,7 @@ path{
     position: relative;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: 1344px;
-}
-
-@media screen and (max-width: 1444px) and (min-width: 1000px){
-    
-    .scale{
-        zoom: 0.5;
-    }
-
-    .head{
-        zoom: 0.7;
-    }
-}
-
-@media screen and (max-width: 1000px) and (min-width: 750px){
-    
-    .scale{
-        zoom: 0.35;
-    }
-
-    .head{
-        zoom: 0.5;
-    }
+    width: 1546px;
 }
 
 .cir{
@@ -462,6 +446,7 @@ path{
 }
 
 .cir2{
+    z-index: 9999;
     display: flex;
     height: 100%;
     width: 100%;
@@ -492,7 +477,7 @@ path{
     color: #ffffff;
     text-align: center;
     margin: auto;
-    width: 1344px;
+    width: 1546px;
 }
 
 .inf{

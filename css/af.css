@@ -9,6 +9,10 @@
     margin-right: auto;
 }
 
+.wr-wr{
+    zoom: 0.85;
+}
+
 .rectangle-top{
     width: 100%;
     height: 40px;
@@ -368,10 +372,10 @@ svg {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 1344px;
+    width: 1546px;
 }
 
-@media screen and (max-width: 1444px) and (min-width: 1000px){
+/* @media screen and (max-width: 1444px) and (min-width: 1000px){
     
     .scale{
         zoom: 0.5;
@@ -391,7 +395,7 @@ svg {
     .head{
         zoom: 0.5;
     }
-}
+} */
 
 /* ------------------- */
 

@@ -7,7 +7,6 @@ function mod(but, color) {
   
   $(".map__laAm *").hover(
     function (event) {
-      const a = 10;
   
       $(".wrapper").append(`
           <div id="map-info" style="overflow:hidden; display: flex; position:absolute; top: ${
